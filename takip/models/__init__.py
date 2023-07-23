@@ -1,0 +1,1 @@
+from .uruntakip import UruntakipModel
