@@ -1,0 +1,305 @@
+env 
+# https://www.toptal.com/developers/gitignore/api/python,django,windows,venv tarafından düzenlendi
+# https://www.toptal.com/developers/gitignore?templates=python,django,windows,venv adresinde düzenleyin
+
+### Django ###
+*.kayıt
+*.tencere
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+medya
+
+# Derleme işleminiz Collectstatic çalıştırmayı içeriyorsa, o zaman muhtemelen staticfiles'e ihtiyacınız yoktur veya eklemek istemezsiniz/
+# Git deponuzda. Aşağıdaki satırı uygun şekilde güncelleyin ve açıklamasını kaldırın.
+# <django-proje-adı>/statik dosyalar/
+
+### Django.Python Yığını ###
+# Bayt derlenmiş / optimize edilmiş / DLL dosyaları
+*.py[kod]
+*$py.sınıfı
+
+# C uzantıları
+*.Bu yüzden
+
+# Dağıtım / paketleme
+.Python
+inşa etmek/
+yumurta geliştirmek/
+uzak/
+İndirilenler/
+yumurtalar/
+.yumurtalar/
+kitap/
+lib64/
+parçalar/
+sdist/
+var/
+tekerlekler/
+paylaş/python-wheels/
+*.yumurta bilgisi/
+.yüklü.cfg
+*.Yumurta
+BELİRGİN
+
+# PyYükleyici
+# Genellikle bu dosyalar bir şablondan bir python betiği ile yazılır
+# PyInstaller, içine tarih/diğer bilgileri enjekte etmek için exe'yi oluşturmadan önce.
+*.belirgin
+*.spec
+
+# Yükleyici günlükleri
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Birim testi / kapsam raporları
+htmlcov/
+.toks/
+.nox/
+.kapsam
+.kapsam.*
+.cache
+burun testleri.xml
+kapsama.xml
+*.kapak
+*.py,kapak
+.hipotez/
+.pytest_cache/
+kapak/
+
+# Çeviriler
+*.ay
+
+# Django şeyler:
+
+# Şişe şeyler:
+misal/
+.webassets-cache
+
+# Hurda şeyler:
+.scrapy
+
+# Sfenks belgeleri
+belgeler/_build/
+
+# PyBuilder
+.pybuilder/
+hedef/
+
+# Jüpyter Defter
+.ipynb_checkpoints
+
+#IPython
+profile_default/
+ipython_config.py
+
+#pyenv
+# Bir kitaplık veya paket için, kod şu şekilde olduğundan bu dosyaları yok saymak isteyebilirsiniz:
+# birden fazla ortamda çalışmak üzere tasarlanmıştır; aksi takdirde, onları kontrol edin:
+# .python sürümü
+
+# pipenv
+# pypa/pipenv#598'e göre sürüm kontrolüne Pipfile.lock eklenmesi önerilir.
+# Ancak, işbirliği durumunda, platforma özgü bağımlılıklar veya bağımlılıklar varsa
+# platformlar arası desteği olmayan pipenv, çalışmayan veya çalışmayan bağımlılıklar yükleyebilir
+# gerekli tüm bağımlılıkları kurun.
+#Pipfile.lock
+
+# şiir
+# Pipfile.lock'a benzer şekilde, genellikle poetic.lock'un sürüm kontrolüne dahil edilmesi önerilir.
+# Bu, tekrarlanabilirliği sağlamak için özellikle ikili paketler için önerilir ve daha fazlasıdır
+# genellikle kitaplıklar için göz ardı edilir.
+# https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+#şiir.kilidi
+
+# pdm
+# Pipfile.lock'a benzer şekilde, genellikle pdm.lock'un sürüm kontrolüne dahil edilmesi önerilir.
+#pdm.lock
+# pdm, proje çapındaki yapılandırmaları .pdm.toml'de depolar, ancak dahil edilmemesi önerilir
+# sürüm kontrolünde.
+# https://pdm.fming.dev/#use-with-ide
+.pdm.toml
+
+# PEP 582; örneğin github.com/David-OConnor/pyflow ve github.com/pdm-project/pdm tarafından kullanılır
+__pypackages__/
+
+# Kereviz malzemesi
+kereviz atışı programı
+kereviz.pid
+
+# SageMath ayrıştırılmış dosyalar
+*.sage.py
+
+# Ortamlar
+.env
+.venv
+çevre/
+venv/
+Çevre/
+env.bak/
+venv.bak/
+
+# Spyder proje ayarları
+.spyder projesi
+.casus projesi
+
+# Halat proje ayarları
+.ip projesi
+
+# mkdocs belgeleri
+/alan
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Ateş türü denetleyicisi
+.ateş/
+
+# pytype statik tip analizörü
+.pytype/
+
+# Cython hata ayıklama sembolleri
+cython_debug/
+
+#PyCharm
+# JetBrains'e özel şablon, ayrı bir JetBrains.gitignore'da tutulmaktadır.
+# https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore adresinde bulunabilir
+# ve global gitignore'a eklenebilir veya bu dosyaya birleştirilebilir. Daha fazla nükleer için
+# seçeneği (önerilmez), tüm fikir klasörünü yoksaymak için aşağıdaki açıklamayı kaldırabilirsiniz.
+#.fikir/
+
+### Piton ###
+# Bayt derlenmiş / optimize edilmiş / DLL dosyaları
+
+# C uzantıları
+
+# Dağıtım / paketleme
+
+# PyYükleyici
+# Genellikle bu dosyalar bir şablondan bir python betiği ile yazılır
+# PyInstaller, içine tarih/diğer bilgileri enjekte etmek için exe'yi oluşturmadan önce.
+
+# Yükleyici günlükleri
+
+# Birim testi / kapsam raporları
+
+# Çeviriler
+
+# Django şeyler:
+
+# Şişe şeyler:
+
+# Hurda şeyler:
+
+# Sfenks belgeleri
+
+# PyBuilder
+
+# Jüpyter Defter
+
+#IPython
+
+#pyenv
+# Bir kitaplık veya paket için, kod şu şekilde olduğundan bu dosyaları yok saymak isteyebilirsiniz:
+# birden fazla ortamda çalışmak üzere tasarlanmıştır; aksi takdirde, onları kontrol edin:
+# .python sürümü
+
+# pipenv
+# pypa/pipenv#598'e göre sürüm kontrolüne Pipfile.lock eklenmesi önerilir.
+# Ancak, işbirliği durumunda, platforma özgü bağımlılıklar veya bağımlılıklar varsa
+# platformlar arası desteği olmayan pipenv, çalışmayan veya çalışmayan bağımlılıklar yükleyebilir
+# gerekli tüm bağımlılıkları kurun.
+
+# şiir
+# Pipfile.lock'a benzer şekilde, genellikle poetic.lock'un sürüm kontrolüne dahil edilmesi önerilir.
+# Bu, tekrarlanabilirliği sağlamak için özellikle ikili paketler için önerilir ve daha fazlasıdır
+# genellikle kitaplıklar için göz ardı edilir.
+# https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+
+# pdm
+# Pipfile.lock'a benzer şekilde, genellikle pdm.lock'un sürüm kontrolüne dahil edilmesi önerilir.
+# pdm, proje çapındaki yapılandırmaları .pdm.toml'de depolar, ancak dahil edilmemesi önerilir
+# sürüm kontrolünde.
+# https://pdm.fming.dev/#use-with-ide
+
+# PEP 582; örneğin github.com/David-OConnor/pyflow ve github.com/pdm-project/pdm tarafından kullanılır
+
+# Kereviz malzemesi
+
+# SageMath ayrıştırılmış dosyalar
+
+# Ortamlar
+
+# Spyder proje ayarları
+
+# Halat proje ayarları
+
+# mkdocs belgeleri
+
+# mypy
+
+# Ateş türü denetleyicisi
+
+# pytype statik tip analizörü
+
+# Cython hata ayıklama sembolleri
+
+#PyCharm
+# JetBrains'e özel şablon, ayrı bir JetBrains.gitignore'da tutulmaktadır.
+# https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore adresinde bulunabilir
+# ve global gitignore'a eklenebilir veya bu dosyaya birleştirilebilir. Daha fazla nükleer için
+# seçeneği (önerilmez), tüm fikir klasörünü yoksaymak için aşağıdaki açıklamayı kaldırabilirsiniz.
+
+### Python Yaması ###
+# Şiir yerel yapılandırma dosyası - https://python-poetry.org/docs/configuration/#local-configuration
+şiir.toml
+
+# fırfır
+.ruff_cache/
+
+# LSP yapılandırma dosyaları
+pyrightconfig.json
+
+### venv ###
+# Sanal ortam
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+[Bb]in
+[Dahil ediyorum
+[Ll]ib
+[Ll]ib64
+[Ll]yerel
+[Ss]kriptler
+pyvenv.cfg
+pip-selfcheck.json
+
+### Pencereler ###
+# Windows küçük resim önbellek dosyaları
+Thumbs.db
+Thumbs.db:şifrelenebilir
+ehthumbs.db
+ehthumbs_vista.db
+
+# Döküm dosyası
+*.stackdump
+
+# Klasör yapılandırma dosyası
+[Dd]esktop.ini
+
+# Dosya paylaşımlarında kullanılan Geri Dönüşüm Kutusu
+$GERİ DÖNÜŞÜM.KUTUSU/
+
+# Windows Installer dosyaları
+*.taksi
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows kısayolları
+*.lnk
+
+# https://www.toptal.com/developers/gitignore/api/python,django,windows,venv'nin sonu
