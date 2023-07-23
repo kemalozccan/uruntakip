@@ -303,3 +303,8 @@ $GERİ DÖNÜŞÜM.KUTUSU/
 *.lnk
 
 # https://www.toptal.com/developers/gitignore/api/python,django,windows,venv'nin sonu
+
+
+__pycache__
+.vscode
+db.sqlite3
