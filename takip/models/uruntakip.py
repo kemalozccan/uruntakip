@@ -14,3 +14,8 @@ class UruntakipModel(models.Model):
 
     class Meta:
         db_table='tablo_uruntakip'
+        verbose_name_plural = 'Alıcılar' #admin panelinde kategorinin ismini belirtir.
+        verbose_name= 'Alıcı'   # Admin panelinde kategori listesindeki mesaj içeriğidir.
+
+    def __str__(self):  # Admin panelinde kategori listesinde görünecek alanı belirtir.
+        return self.alıcı

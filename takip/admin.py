@@ -1,3 +1,4 @@
 from django.contrib import admin
+from takip.models import UruntakipModel
 
-# Register your models here.
+admin.site.register(UruntakipModel)
